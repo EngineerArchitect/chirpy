@@ -1,3 +1,29 @@
+## Testing connection with postgres
+
+Update postgres password
+```
+sudo passwd postgres
+```
+
+and nter a password to remember
+
+To start postgre
+
+```
+sudo service postgresql start
+```
+
+To run postgres
+```
+sudo -u postgres psql
+```
+to alter password
+
+```
+ALTER USER postgres PASSWORD 'xxxxxx';
+```
+
+
 ## Migrations
 
 For DB migrations use "Goose", install using
