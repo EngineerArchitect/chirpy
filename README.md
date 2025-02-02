@@ -167,3 +167,21 @@ Create the following file for debugging
     ]
 }
 ```
+
+## Other libraries
+
+```shell
+go get golang.org/x/crypto
+```
+
+```shell
+go get -u github.com/golang-jwt/jwt/v5
+```
+
+
+After making changes to code its a good practice to run
+
+```shell
+go mod tidy
+```
+
