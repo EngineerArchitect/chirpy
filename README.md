@@ -168,6 +168,14 @@ Create the following file for debugging
 }
 ```
 
+## Creating secret for JWT
+
+Use the following command line to create a JWT_TOKEN secret for .env file
+
+```shell
+openssl rand -base64 64 | tr -d '\n'
+```
+
 ## Other libraries
 
 ```shell
@@ -177,7 +185,6 @@ go get golang.org/x/crypto
 ```shell
 go get -u github.com/golang-jwt/jwt/v5
 ```
-
 
 After making changes to code its a good practice to run
 
