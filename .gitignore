@@ -1,5 +1,6 @@
 _debug*
 .vscode/
+.vscode/*
 chirpy
 .env
 out
